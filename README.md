@@ -1,15 +1,14 @@
 # hackathon
 hackathon template (super simple & no install)
 
-# Features
+# 1.Features
 
     - Server JSON-api template (sqlite db binded)
     - Client JSON-api template (Android-java, Web-javascript)
-    - JSON-api document template
     - Android common template (such as Listveiw, Popup alert, Slide menu, .. etc)
     - Website common template 
     
-# Quick start
+# 2.Quick start
 
 ## Server
     
@@ -35,7 +34,7 @@ hackathon template (super simple & no install)
     # some one make here please ...
 
 
-# JSON-api
+# 3.JSON-api
 
     <!--send packet-->
     {
