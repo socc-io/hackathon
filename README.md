@@ -1,5 +1,5 @@
 # hackathon
-hackathon template
+hackathon template (super simple & no install)
 
 # Features
 
