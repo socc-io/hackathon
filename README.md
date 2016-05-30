@@ -22,6 +22,9 @@ hackathon template (super simple & no install)
     - your server address is [ 221.10.33.23:8080 ]
     
 ## Client (Android)
+    
+    # import client-android with android studio
+    # run project
     # open slide menu -> click Server-info
     # modify server address 
     # test server access with buttons (Face-book login, db-input test, etc ...)
