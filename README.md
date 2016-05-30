@@ -18,7 +18,7 @@ hackathon template (super simple & no install)
     
     # start server
     cd server/
-    ./run-server.sh
+    ./run-server.sh 8080
     - your server address is [ 221.10.33.23:8080 ]
     
 ## Client (Android)
