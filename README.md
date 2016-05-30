@@ -14,7 +14,8 @@ hackathon template (super simple & no install)
 ## Server
     
     # modify db scheme
-    vim db.py
+    vim db-create.py
+    python db-create.py
     
     # start server
     cd server/
