@@ -3,9 +3,9 @@ hackathon template (super simple & no install)
 
 # Features
 
-    - Server json-api template (sqlite db binded)
-    - Client json-api template (Android-java, Web-javascript)
-    - json-api document template
+    - Server JSON-api template (sqlite db binded)
+    - Client JSON-api template (Android-java, Web-javascript)
+    - JSON-api document template
     - Android common template (such as Listveiw, Popup alert, Slide menu, .. etc)
     - Website common template 
     
@@ -33,5 +33,30 @@ hackathon template (super simple & no install)
 ## Client (Web)
 
     # some one make here please ...
+
+
+# JSON-api
+
+    <!--send packet-->
+    {
+        "uid" : "test-id",                           # for only login
+        "upasswd" : "test-passwd",                   # for only login
+        "ucookie" : "Fa10923",                       # getting from login
+        "callback" : "your callback key" ,           # for common callback method
+        "method" : "plus",                           # method.py's method
+        "arg1" : 10,
+        "arg2" : 20,
+        "arg3" : 30,
+        ...
+    }
+
+
+    <!--receive packet-->
+    {
+        "ucookie" : "Fa10923",
+        "callback" : "your callback key",           
+        "return1" : 60,
+        ...
+    }
     
     
