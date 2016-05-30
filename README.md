@@ -1,16 +1,16 @@
-# hackathon
-hackathon template (super simple & no install)
+# Hackathon
+Hackathon template (super simple & no install)
 
-# 1.Features
+## 1.Features
 
     - Server JSON-api template (sqlite db binded)
     - Client JSON-api template (Android-java, Web-javascript)
     - Android common template (such as Listveiw, Popup alert, Slide menu, .. etc)
     - Website common template 
     
-# 2.Quick start
+## 2.Quick start
 
-## Server
+#### Server
     
     # modify db scheme
     vim db-create.py
@@ -21,7 +21,7 @@ hackathon template (super simple & no install)
     ./run-server.sh 8080
     - your server address is [ 221.10.33.23:8080 ]
     
-## Client (Android)
+#### Client (Android)
     
     # import client-android with android studio
     # run project
@@ -29,12 +29,12 @@ hackathon template (super simple & no install)
     # modify server address 
     # test server access with buttons (Face-book login, db-input test, etc ...)
     
-## Client (Web)
+#### Client (Web)
 
     # some one make here please ...
 
 
-# 3.JSON-api
+## 3.JSON-api
 
     <!--send packet-->
     {
